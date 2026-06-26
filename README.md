@@ -8,6 +8,8 @@ A hosted, read-only [Model Context Protocol](https://modelcontextprotocol.io) (M
 
 Ask your books about ledgers, customer outstanding, supplier payables, GST and TDS review, bank reconciliation, and monthly summaries, in plain language. It is **read-only by design**, so the AI can never change anything in Tally.
 
+> **Tested and maintained for you.** No server to set up, no code to run, and nothing to debug. Unlike a self-hosted server you build and keep working yourself, this one is ready to use. Plug and play.
+
 ## What is Tally?
 Tally Prime, and the older Tally ERP 9, is the most widely used accounting and ERP software for businesses in India. Millions of companies, accountants, and chartered accountants run their ledgers, GST, inventory, and compliance on it. It runs on Windows and keeps the books on the local machine, which is why getting that data out to an AI assistant normally takes work.
 
