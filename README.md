@@ -38,8 +38,10 @@ There are good open-source Tally MCP servers on GitHub. They are free, and you r
 | Where you can ask | Local only, and the Tally PC must stay on | Any device, anywhere, even with the PC off after a sync |
 | Auth | Usually none, local access | OAuth 2.0 with Dynamic Client Registration |
 | Data | Reads Tally live over the local HTTP and XML interface | Syncs to a per-tenant encrypted store hosted in India |
+| Detail | Mostly dashboard level figures, with debit and credit flattened to plus and minus | Correct debit and credit, with full detail down to each voucher |
+| Tools | Raw queries you build and parse yourself | 21 ready-made tools that return correct, consistent figures |
 | Maintenance | You maintain and update it | Maintained for you |
 
-If you want to self-host for free, the open-source servers are a great fit. The Usual Accountant is the managed, hosted option for people who want it secure and reachable from any device, with no setup.
+In short, the self-hosted servers work, but you own the setup, keep the PC on, and maintain them yourself. The Usual Accountant removes all of that. There is no setup, it is reachable from any device, access is secured with OAuth, and the data comes through a fixed set of tools built to return correct and consistent figures from your books. Nothing for you to run or fix.
 
 Built by RYON in Hyderabad, India. Learn more at [theusualaccountant.com](https://theusualaccountant.com).
