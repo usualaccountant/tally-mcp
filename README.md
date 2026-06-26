@@ -8,6 +8,9 @@ A hosted, read-only [Model Context Protocol](https://modelcontextprotocol.io) (M
 
 Ask your books about ledgers, customer outstanding, supplier payables, GST and TDS review, bank reconciliation, and monthly summaries, in plain language. It is **read-only by design**, so the AI can never change anything in Tally.
 
+## What is Tally?
+Tally Prime, and the older Tally ERP 9, is the most widely used accounting and ERP software for businesses in India. Millions of companies, accountants, and chartered accountants run their ledgers, GST, inventory, and compliance on it. It runs on Windows and keeps the books on the local machine, which is why getting that data out to an AI assistant normally takes work.
+
 ## How it works
 A small Windows app on the Tally PC syncs your books to an India-hosted, per-tenant encrypted store. A multi-tenant MCP server then exposes them to your AI client over OAuth 2.0 with Dynamic Client Registration.
 
@@ -25,4 +28,18 @@ A small Windows app on the Tally PC syncs your books to an India-hosted, per-ten
 3. In your AI client, add the MCP server URL `https://api.theusualaccountant.com/mcp` and approve the OAuth prompt.
 4. Ask your books a question.
 
-Unlike the open-source Tally MCP servers, this one is fully managed and hosted, with no self-setup. Built by RYON in Hyderabad, India. Learn more at [theusualaccountant.com](https://theusualaccountant.com).
+## How this compares to the open-source Tally MCP servers
+There are good open-source Tally MCP servers on GitHub. They are free, and you run them yourself. The difference is setup and where the server lives.
+
+| | Open-source Tally MCP | The Usual Accountant |
+|---|---|---|
+| Hosting | You self-host it on the Tally PC | Managed and hosted for you |
+| Setup | Install Node.js, enable the Tally XML port, run and configure the server | Install one Windows app, nothing to configure |
+| Where you can ask | Local only, and the Tally PC must stay on | Any device, anywhere, even with the PC off after a sync |
+| Auth | Usually none, local access | OAuth 2.0 with Dynamic Client Registration |
+| Data | Reads Tally live over the local HTTP and XML interface | Syncs to a per-tenant encrypted store hosted in India |
+| Maintenance | You maintain and update it | Maintained for you |
+
+If you want to self-host for free, the open-source servers are a great fit. The Usual Accountant is the managed, hosted option for people who want it secure and reachable from any device, with no setup.
+
+Built by RYON in Hyderabad, India. Learn more at [theusualaccountant.com](https://theusualaccountant.com).
