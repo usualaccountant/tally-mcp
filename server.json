@@ -1,7 +1,7 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
   "name": "io.github.usualaccountant/the-usual-accountant",
-  "description": "Read-only Tally Prime MCP server. Ask your books in plain language inside ChatGPT or Claude.",
+  "description": "AI for Tally Prime and Tally ERP 9. A hosted MCP server to ask your accounts questions in any language.",
   "repository": {
     "url": "https://github.com/usualaccountant/tally-mcp",
     "source": "github"
