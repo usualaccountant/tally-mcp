@@ -1,6 +1,6 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "io.github.usualaccountant/the-usual-accountant",
+  "name": "io.github.usualaccountant/tally-mcp",
   "description": "AI for Tally Prime and Tally ERP 9. Hosted MCP server to ask your accounts in any language.",
   "repository": {
     "url": "https://github.com/usualaccountant/tally-mcp",
