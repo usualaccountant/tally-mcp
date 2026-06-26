@@ -19,13 +19,10 @@ A small Windows app on the Tally PC syncs your books to an India-hosted, per-ten
 | **Hosting** | India, per-tenant SQLCipher encryption |
 | **License** | Commercial / proprietary |
 
-## Connect (Claude or ChatGPT)
+## Connect (ChatGPT, Claude, or any MCP client)
 1. Sign up at [theusualaccountant.com](https://theusualaccountant.com) and install the Windows app on the PC that runs Tally Prime.
 2. Sync your company.
 3. In your AI client, add the MCP server URL `https://api.theusualaccountant.com/mcp` and approve the OAuth prompt.
 4. Ask your books a question.
-
-## Pricing
-₹649 per month, inclusive of GST. Read-only. Cancel any time.
 
 Unlike the open-source Tally MCP servers, this one is fully managed and hosted, with no self-setup. Built by RYON in Hyderabad, India. Learn more at [theusualaccountant.com](https://theusualaccountant.com).
